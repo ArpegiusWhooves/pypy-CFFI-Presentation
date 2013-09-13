@@ -1,0 +1,1 @@
+export PATH=/home/kamil/.local/bin:/home/kamil/.local/bin:/home/kamil/.local/bin:/home/kamil/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin:/home/kamil/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-7-oracle/db/bin:/usr/lib/jvm/java-7-oracle/jre/bin
