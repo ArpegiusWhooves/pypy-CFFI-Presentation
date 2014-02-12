@@ -37,7 +37,7 @@ _ALL_PRIMITIVE_TYPES = {
 	}
 
 ui = _cffi.new_primitive_type( 'unsigned int' )
-ia = _cffi.new_primitive_type( 'unsigned int' )
+ia = _cffi.new_primitive_type( 'unsigned long long' )
 pui= _cffi.new_pointer_type( ui )
 aui = _cffi.new_array_type(  pui, 16 )
 

@@ -13,7 +13,7 @@ def lineno():
 if hasattr( __builtins__, 'xrange'):
 	range=xrange
 
-ffi.cdef( "# %d\""%(lineno()+1,) + __file__ + """"
+ffi.cdef( "# %d\""%(lineno()+1,) + __file__ + """
 	struct serobj {
 		int a,b,c;
 		char x[12]; v
@@ -26,10 +26,10 @@ ffi.cdef( "# %d\""%(lineno()+1,) + __file__ + """"
 """ );
 
 
-lib= ffi.verify( "# %d\""%(lineno()+1,) + __file__ + """"
+lib= ffi.verify( "# %d\""%(lineno()+1,) + __file__ + """
 	struct serobj {
 		int a,b,c;
-		char x[12];z
+                char x[12];
 		struct serobj* p;
 	};
 	
